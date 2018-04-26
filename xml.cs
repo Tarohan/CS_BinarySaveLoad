@@ -19,8 +19,8 @@ namespace 設定ファイルテスト
             XElement root =
                 new XElement("root",
                     new XElement("filePath", path),
-                    new XElement("FromDate", fromDate.ToString()),
-                    new XElement("Todate", toDate.ToString())
+                    new XElement("fromDate", fromDate.ToString()),
+                    new XElement("toDate", toDate.ToString())
                 );
 
             root.Save("test.xml");
